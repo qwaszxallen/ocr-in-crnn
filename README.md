@@ -4,6 +4,7 @@ CRNN+CTC 模型介紹
 OCR 全名為 Optical Character Recognition，也就是光學字元識別，用於識別
 圖片中文字，並進行匯出。本研究所採用的 OCR 模型架構為 CRNN 模型，詳細網
 路架構見下圖。
+  
 ![1667627605350](https://user-images.githubusercontent.com/105662348/200104748-d09296c7-cd81-41ad-acb0-a2fc39828e3b.jpg)
 
 
@@ -18,4 +19,5 @@ OCR 全名為 Optical Character Recognition，也就是光學字元識別，用�
 CTC 函數作為模型的損失函數存在。本研究選用 CTC 函數，透過合併連續相同
 特徵以及加入空白特徵區隔相同特徵，來解決序列不定長問題。CTC 函數之算
 法如下圖所示。
+  
 ![1667627500179](https://user-images.githubusercontent.com/105662348/200104691-15b029a6-c43a-452e-bc59-f20185359763.jpg)
